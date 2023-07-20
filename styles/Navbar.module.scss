@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 10px;
+
+    .logo{
+        .picture{
+            position: relative;
+            width: 100px;
+            height: 100px;
+
+            img{
+                position: absolute;
+            }
+        }
+    }
+
+    .navButton{
+        font-size: 2rem;
+        cursor: pointer;
+        transition: all 1s;
+        padding: 10px;
+        z-index: 10;
+        position: relative;
+        
+        span{
+            // font-size: 2.5rem;
+        }
+    }
+}
+
+.navMenu{
+    position: absolute;
+    height: 100vh;
+    background: #353638;
+    top: 0;
+    right: 0;
+}
