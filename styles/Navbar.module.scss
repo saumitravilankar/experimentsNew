@@ -3,6 +3,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 0 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
 
     .logo{
         .picture{
@@ -23,10 +28,6 @@
         padding: 10px;
         z-index: 10;
         position: relative;
-        
-        span{
-            // font-size: 2.5rem;
-        }
     }
 }
 
@@ -36,4 +37,5 @@
     background: #353638;
     top: 0;
     right: 0;
+    z-index: 2;
 }
